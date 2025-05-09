@@ -1,0 +1,9 @@
+# spec/spec_helper.rb
+require 'rspec'
+require_relative '../lib/basket'
+require_relative '../lib/catalog/static_product_catalog'
+require_relative '../lib/rules/tiered_delivery_rule'
+require_relative '../lib/offers/red_widget_half_price_offer'
+require_relative '../lib/adapters/product_catalog_adapter'
+require_relative '../lib/adapters/offer_adapter'
+require_relative '../lib/adapters/delivery_rule_adapter'
